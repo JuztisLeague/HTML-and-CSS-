@@ -1,0 +1,19 @@
+body{
+    background: yellow;
+    color: brown;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/* CSS Syntax
+
+CSS works by selecting a HTML element and styling them all you want. 
+
+Selector -> which element
+Property -> what part of the element
+Value -> the desired outcome of the element
+
+*/
