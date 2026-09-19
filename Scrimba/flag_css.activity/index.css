@@ -2,21 +2,50 @@ body{
     margin: 0;
 }
 
+.main{
+    display: flex;
+    align-items: flex-start;
 
+}
 
-.red{
+.subdiv{
+    width: 640px;
+    margin-left: 200px;
+}
+
+.story{
     background: red;
     height: 100px;
+    width: 100%;
 }
 
-.blue {
-    background: blue;
-    height: 100px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+.menu {
+    background: yellow;
+    height: 737px;
+    width: 80px;
 }
 
-.green{
+.feed{
     background: green;
-    height: 100px;
+    height: 637px;
+    width: 73%;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.accounts{
+    margin-top: 25px;
+    margin-left: 75px;
+    width: 320px;
+}
+
+.myaccount{
+    background: skyblue;
+    height: 70px;
+}
+
+.suggestions{
+    background: orange;
+    height: 445px;
+}
+

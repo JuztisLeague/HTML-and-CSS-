@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    align-items: flex-start;
+
+}
+.menu {
+    background: yellow;
+    height: 737px;
+    width: 80px;
+}
+
+.subdiv{
+    width: 640px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.story{
+    background: white;
+    height: 100px;
+    width: 100%;
+    border-color:black;
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+}
+.circle{
+    width: 90px;
+    height: 90px;
+     background-color: white;
+     border-color:black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle1{
+    width: 80px;
+    height: 80px;
+     background-color: orange;
+    border-radius: 50%;
+}
+
+.feed{
+    background: skyblue;
+    height: 637px;
+    width: 73%;
+    
+}
+
+.accounts{
+    margin-top: 25px;
+    margin-left: 75px;
+    width: 320px;
+}
+
+.myaccount{
+    background: skyblue;
+    height: 70px;
+}
+
+.suggestions{
+    background: orange;
+    height: 445px;
+}
+button{
+    padding:0px;
+    width: 30px;
+    height: 30px;;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.like{
+  width: 100%;       
+  height: 100%;      
+  object-fit: cover; 
+  display: block; 
+}
+.comment{
+    width: 100%;       
+  height: 100%;      
+  object-fit: cover; 
+  display: block;
+}
+.repost{
+width: 100%;       
+  height: 100%;      
+  object-fit: cover; 
+  display: block;
+}
+.save{
+width: 100%;       
+  height: 100%;      
+  object-fit: cover; 
+  display: block;
+}
+.send{
+width: 100%;       
+  height: 100%;      
+  object-fit: cover; 
+  display: block;
+}
+.pic{
+    background: white;
+    height: 300px;
+    width: 467px;
+    border-color:black;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile{
+    margin-left: 10px;
+
+    width: 40px;
+    height: 40px;
+     background-color: orange;
+    border-radius: 50%;
+}
+
+.sub{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap:5px
+}
